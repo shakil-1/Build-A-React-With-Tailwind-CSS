@@ -10,9 +10,9 @@ const Navbar = () => {
     return (
         <div className='w-full h-[90px] bg-black'>
             <div className='max-w-[1240px] mx-auto px-4 flex justify-between items-center h-full '>
-                <h1 className='text-[#00d8ff]'>DEFI</h1>
+                <h1 className='text-[#00d8ff] cursor-pointer '>DEFI</h1>
                 <div className='hidden md:flex'>
-                    <ul className='text-white flex items-center'>
+                    <ul className='text-white flex items-center cursor-pointer'>
                         <li>Home</li>
                         <li>About</li>
                         <li>Services</li>
