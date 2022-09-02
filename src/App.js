@@ -3,6 +3,7 @@ import About from './components/About';
 import Developer from './components/Developer';
 import Hero from './components/Hero';
 import Navbar from './components/Navbar';
+import Subscribe from './components/Subscribe';
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
      <Hero></Hero>
      <About></About>
      <Developer></Developer>
+     <Subscribe></Subscribe>
       
     </div>
   );
